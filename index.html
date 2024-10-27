@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleMed.css">
+    <link rel="stylesheet" href="css/styleLarge.css">
+</head>
+<body>
+    <div class="curOne">
+        <select id="currencyDropdown" title="curDropDown"></select>
+        <input class="curInput" id="curInput" type="text" title="curOne"></input>
+    </div>
+    <br>
+    <button id="convertButton">Convert</button>
+    <br>
+    <div class="curTwo">
+        <select id="currencyDropdownTwo" title="curDropDown2"></select>
+        <input class="curInput" id="result" type="text" title="curOne"></input>
+    </div>
+    <section>
+        <h2>Don't Know What Currency a Country Uses?</h2>
+        <select id="countries" name="countries" title="countries">
+            <option value="RR">Abkhazia</option>
+            <option value="euro">Alana Islands</option>
+            <option value="USD">American Samoa</option>
+            <option value="euro">Andorra</option>
+            <option value="euro">Austria</option>
+            <option value="AD">Australia</option>
+            <option value="euro">Belgium</option>
+            <option value="IR">Bhutan</option>
+            <option value="USD">Bonaire</option>
+            <option value="BR">Brazil</option>
+            <option value="USD">Caicos Islands</option>
+            <option value="CD">Canada</option>
+            <option value="euro">Caribbean Netherlands</option>
+            <option value="AD">Christmas Island</option>
+            <option value="CY">China</option>
+            <option value="AD">Cocos Islands</option>
+            <option value="euro">Cyprus</option>
+            <option value="DK">Denmark</option>
+            <option value="USD">Ecuador</option>
+            <option value="BP">England</option>
+            <option value="USD">El Salvador</option>
+            <option value="euro">Estonia</option>
+            <option value="SAR">Eswatini</option>
+            <option value="DK">Faroe Islands</option>
+            <option value="euro">Finland</option>
+            <option value="euro">France</option>
+            <option value="USD">Guam</option>
+            <option value="euro">Guadeloupe</option>
+            <option value="BP">Guernsey</option>
+            <option value="euro">Germany</option>
+            <option value="BP">Gibraltar</option>
+            <option value="euro">Greece</option>
+            <option value="DK">Greenland</option>
+            <option value="HKD">Hong Kong</option>
+            <option value="IR">India</option>
+            <option value="euro">Ireland</option>
+            <option value="BP">Isle of Man</option>
+            <option value="IS">Israel</option>
+            <option value="euro">Italy</option>
+            <option value="JY">Japan</option>
+            <option value="BP">Jersey</option>
+            <option value="SKW">Korea</option>
+            <option value="euro">Kosovo</option>
+            <option value="euro">Kingdom of the Netherlands</option>
+            <option value="AD">Kiribati</option>
+            <option value="euro">Latvia</option>
+            <option value="SW">Liechtenstein</option>
+            <option value="euro">Lithuania</option>
+            <option value="euro">Luxembourg</option>
+            <option value="USD">Marshall Islands</option>
+            <option value="euro">Malta</option>
+            <option value="euro">Martinique</option>
+            <option value="euro">Mayotte</option>
+            <option value="MP">Mexico</option>
+            <option value="USD">Micronesia</option>
+            <option value="euro">Miquelon</option>
+            <option value="euro">Monaco</option>
+            <option value="euro">Montenegro</option>
+            <option value="SAR">Namibia</option>
+            <option value="AD">Nauru</option>
+            <option value="euro">Netherlands</option>
+            <option value="NK">Norway</option>
+            <option value="AD">Norfolk Island</option>
+            <option value="USD">Northern Mariana Islands</option>
+            <option value="USD">Palau</option>
+            <option value="USD">Panama</option>
+            <option value="PZ">Poland</option>
+            <option value="euro">Portugal</option>
+            <option value="USD">Puerto Rico</option>
+            <option value="NK">Quisling Regime</option>
+            <option value="euro">Reunion</option>
+            <option value="RR">Rusia</option>
+            <option value="euro">Saint Barthelemy</option>
+            <option value="euro">Saint Pierre</option>
+            <option value="euro">San Marino</option>
+            <option value="BP">Scotland</option>
+            <option value="SD">Singapore</option>
+            <option value="euro">Slovakia</option>
+            <option value="SAR">South Africa</option>
+            <option value="SKW">South Korea</option>
+            <option value="RR">South Ossetia</option>
+            <option value="euro">Spain</option>
+            <option value="SW">Sweden</option>
+            <option value="SF">Switserland</option>
+            <option value="USD">Somalia</option>
+            <option value="USD">Timor-Leste</option>
+            <option value="TB">Thailand</option>
+            <option value="TL">Turkey</option>
+            <option value="TL">Turkish Republic of Northern Cyprus<option>
+            <option value="AD">Tuvalu</option>
+            <option value="USD">United States of America</option>
+            <option value="BP">United Kingdom</option>
+            <option value="euro">Vatican City</option>
+            <option value="USD">Virgin Islands</option>
+            <option value="BP">Wales</option>
+            <option value="USD">Zimbabwe</option>
+        </select>
+        <textarea id="currencyDisplay" readonly placeholder="Currency will appear here..."></textarea>
+    </section>
+</body>
+<script src="js/script.js"></script>
+<script src="js/api.js"></script>
+</html>
