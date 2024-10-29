@@ -1,3 +1,26 @@
 @media screen and (min-width: 780px) {
-    
+    #currencyDropdown, #currencyDropdownTwo {
+      font-size: medium;
+    }
+    .curOne, .curTwo {
+      grid-template-columns: 125px 4fr;
+    }
+    button {
+      min-height: 10vh;
+      min-width: 25vw;
+      font-size: xx-large;
+    }
+    section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+    h2 {
+      margin-top: 50px;
+      grid-column: 1 / span 2;
+      
+    }
+    #countries, #currencyDisplay {
+      width: 45vw;
+    }
   }

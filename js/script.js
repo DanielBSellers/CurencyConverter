@@ -121,9 +121,8 @@ function displayCurrency() {
         currencyName = "Unknown Currency";
     }
 
-    // Display the currency name in the text area
     currencyDisplay.value = currencyName;
 }
 
-// Add event listener to the dropdown
 countriesDropdown.addEventListener('change', displayCurrency);
+
